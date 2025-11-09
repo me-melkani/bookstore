@@ -1,0 +1,54 @@
+/* style.css - Dark theme, beginner friendly */
+
+/* page background and main text */
+body {
+  background-image: url("books.jpeg"); /* image must be in css folder */
+  background-size: cover;       /* stretch image to fill screen */
+  background-position: center;  /* center the image */
+  background-attachment: fixed;
+  color: #e6eef8;             /* light text */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar brand style */
+.navbar-brand {
+  font-weight: 700;
+  color: #e6eef8 !important;
+}
+
+/* hero */
+.hero {
+  background: linear-gradient(180deg, rgba(20,24,28,0.6), rgba(10,12,15,0.6));
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  color: #fff;
+}
+
+/* cards */
+.card {
+  background-color: #0b1220;
+  border: 1px solid rgba(255,255,255,0.04);
+  color: #e6eef8;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+/* buttons */
+.btn-primary {
+  background-color: #1f6feb;
+  border-color: #1f6feb;
+}
+
+.btn-success {
+  background-color: #16a34a;
+  border-color: #16a34a;
+}
+
+/* smaller text in footer */
+footer small {
+  color: #9aa6b2;
+}
+
+/* make alert on payment page readable on dark bg */
+.alert-secondary {
+  background-color: #e6eef8;
+}
